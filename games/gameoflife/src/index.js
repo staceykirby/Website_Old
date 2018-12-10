@@ -10,7 +10,17 @@ class Grid extends React.Component{
         // can use the map method
         for (var i = 0; i < this.props.rows;i++) {
             for (var j = 0; j < this.props.rows;j++){
-
+                let boxId = i+"_"+j
+                boxClass=this.props.gridFull[i][j] ? "box on" : "box off";
+                rowsArr.push(
+                    <box
+                    boxClass ={boxClass}
+                    key = {boxId}
+                    boxId = {boxId}
+                    row = {i}
+                    col = {j}
+                    selectBox = {this.props.selectBox}
+                )
             }
         }
         return (
