@@ -7,12 +7,90 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Stacey Kirby</title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <script type="module" url="nav.html"/>
+    <link href="home.css" rel="stylesheet">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#educationAndExperience">Education and Experience</a>
+            </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mobileProjects">Mobile Projects</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#webProjects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Web Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#Angular">Angular</a>
+                <a class="dropdown-item" href="#PHP">PHP</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#OtherProjects">Other Projects</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
   </head>
 
   <body>
-      Hello this is a test to see if things are working
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <div id="educationAndExperience">
+          <div id = "education" >
+            <h2>Education</h2>
+            <p>
+              University of Utah 
+              <div>
+               2017
+               </div>
+              Bachelors in Computer Science
+            </p>
+          </div>
+          <div id = "experience">
+            <h2>Experience</h2>
+            <!--Todo Have this collapsable and shrink to display more information-->
+            <p>
+              <div>Galileo Processing - Developer in Test </div>
+              <div>Jan 2018-Present</div>
+            </p>
+            <p>
+              <div>Busch Technology Solution - Web Developer Intern</div>
+              <div>May 2016 - Aug 2016</div>
+            </p>
+          </div>
+        </div>
+        <!--This is all of the skills I have learned either at work or free time-->
+      <div id="skills">
+        <div id = "professionalSkills">
+          <h2>Professional Skills</h2>
+          <p>Python</p>
+        </div>
+        <div id = "selfTaughtSkills">
+          <h2>Self Taught Skills</h2>
+          <p>Node JS</p>
+          <p>Web Scraping</p>
+          <p>Angular</p>
+        </div>
+      </div>
+      <!--Web Projects-->
+      <div>
+        <h2>Website Projects</h2>
+        <p>Image of website that you can select with three boxes next ti each other</p>
+        <p>Weight Calculator</p>
+        <p>Pig Latin Website</p>
+        <p>Pig Latin</p>
+      </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
