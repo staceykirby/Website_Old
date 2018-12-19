@@ -1,14 +1,18 @@
+/*D5D5D5 
+96858f
+6D7993*/
+
 body{
     font-family: cursive;
-    padding-right: 250px;
+    padding-right: 20%;
 }
 #educationAndExperience{
-    background-color:#ff9900;
-    color: white;
+    background-color:#D5D5D5;
+    color: rgb(58, 58, 58);
 }
 #skills{
-    background-color:#464646;
-    color: #ff9900;
+    background-color:#6D7993;
+    color: #000000;
 }
 .carousel-inner{
     width:100%;
@@ -28,19 +32,19 @@ img{
 }
 
 #sidebar {
-    width: 250px;
+    width: 20%;
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
     z-index: 999;
-    background: #464646;
+    background: #96858f;
     color: #fff;
     transition: all 0.3s;
 }
 
 #portfolioImage{
-    width: 200px;
+    width: 70%;
     border-radius: 50%;
 }
 .sideBarLinks{
@@ -49,4 +53,18 @@ img{
 }
 .sideBarLinks:hover{
     color:white;
+}
+
+.bg-light {
+    background-color: #9099A2 !important;
+  }
+
+  .div1 {
+    float: left;
+    text-align: left;
+}
+
+.div2 {
+    float:right;
+    text-align: right;
 }
