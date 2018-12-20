@@ -3,24 +3,36 @@
 6D7993*/
 
 body{
-    font-family: cursive;
+    font-family: "Lucida Console", Monaco, monospace;
     padding-right: 20%;
+    font-weight: 500;
 }
 #educationAndExperience{
     background-color:#D5D5D5;
     color: rgb(58, 58, 58);
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#projects{
+    background-color:#D5D5D5;
+    color: rgb(58, 58, 58);
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #skills{
     background-color:#6D7993;
     color: #000000;
 }
 .carousel-inner{
+    position: relative;
+
     width:100%;
-    max-height: 400px !important;
   }
   
 img{
-    max-height: 400px !important;
+    position: relative;
 }
 
 
