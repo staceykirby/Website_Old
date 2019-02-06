@@ -13,6 +13,12 @@ body{
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+
+
+    display: inline-block;
+	width: 500px;
+	min-height: 50px;
+	height: auto;
 }
 #projects{
     background-color:#D5D5D5;
@@ -42,9 +48,9 @@ img{
     position: absolute;
     top: 0;
     right: 0;
-    height: 150vh;
+    height: 110vh;
     z-index: 999;
-    background: #96858f;
+    background: #75869E;
     color: #fff;
     transition: all 0.3s;
     max-width: 100%;
@@ -64,7 +70,7 @@ img{
 }
 
 .bg-light {
-    background-color: #96858f !important;
+    background-color: #75869E !important;
   }
 
   .div1 {
@@ -72,24 +78,44 @@ img{
     text-align: left;
 }
 
-.div2 {
-    float:right;
-    text-align: right;
-}
 .frontImage{
     
-    height: 150vh;
-    max-height: 200vh;
+    height: 100vh;
+    max-height: 100vh;
     width: 100%;
     max-width: 100%;
     padding-right: 20%;
 
 }
 .about{
-    background: #bca3b1dd;
+    background: #75869E;
     transition: all 0.3s;
 }
 .aboutMeParagraph{
     padding-right: 15%;
     padding-left: 15%;
 }
+.container1 {
+    position: relative;
+    text-align: center;
+    color: 96858f;
+  }
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+
+  .button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: rgba(73, 85, 103, 0.982);
+
+  }
+  
+  .button:hover {
+    background-color: rgba(117, 134, 158, 0.982); /* Green */
+    color: white;
+  }
