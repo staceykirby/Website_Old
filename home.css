@@ -3,9 +3,7 @@
 6D7993*/
 
 body{
-    font-family: "Lucida Console", Monaco, monospace;
-    padding-right: 0%;
-    font-weight: 500;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 #educationAndExperience{
     background-color:#D5D5D5;
@@ -79,16 +77,24 @@ img{
 }
 
 .frontImage{
-    
+    background-image: url("img/computerDesk.jpg");
+
     height: 100vh;
     max-height: 100vh;
     width: 100%;
-    max-width: 100%;
-    padding-right: 20%;
+    max-width: 200%;
+    padding-right: 0%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .about{
-    background: #75869E;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    background: rgb(224, 229, 237);
     transition: all 0.3s;
 }
 .aboutMeParagraph{
@@ -97,8 +103,10 @@ img{
 }
 .container1 {
     position: relative;
-    text-align: center;
+    text-align: left;
     color: 96858f;
+    line-height: 270%;
+
   }
 
 .centered {
@@ -111,11 +119,42 @@ img{
   .button {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    color: rgba(73, 85, 103, 0.982);
+    background-color: rgba(255, 255, 255, 0.982);
+    color:#75869E;
+    padding: 12px 10px 12px 10px;
+
 
   }
   
   .button:hover {
-    background-color: rgba(117, 134, 158, 0.982); /* Green */
-    color: white;
+    background-color: rgb(224, 229, 237); /* Green */
+    color: #75869E;
+  }
+
+
+  .name{
+    font-size: 12vh;
+    font-weight: 900;
+  }
+  .ital{
+    font-size: 3vh;
+    font-style: italic;
+  }
+  .hello{
+      font-size: 4vh;
+      
+  }
+  .fa {
+    padding: 4px;
+    width: 50px;
+  }
+  .heading{
+    color: #75869E;
+    font-size: 30px;
+  }
+  .descr{
+    color:#75869E;
+    font-size: 15px;
+    font-style: italic;
+
   }
