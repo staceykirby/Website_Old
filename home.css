@@ -154,7 +154,30 @@ img{
   }
   .descr{
     color:#75869E;
-    font-size: 15px;
+    font-size: 19px;
     font-style: italic;
 
   }
+  .par{
+    line-height: 2.0;
+    font-size: 19px;
+
+  }
+
+
+  .row {
+    display: flex;
+    padding-left: 50vh;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgb(219, 219, 230)
+  }
+  
+  .column {
+    flex: 50%;
+
+  }
+  p.thick {
+    font-weight: bold;
+  }
+  
