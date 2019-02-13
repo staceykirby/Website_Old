@@ -4,19 +4,20 @@
 
 body{
     font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    max-width: 100% ;
+    min-width:500px;        /* Suppose you want minimum width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:500px; 
+   background-color: rgb(219, 219, 230);
+
+
 }
 #educationAndExperience{
     background-color:#D5D5D5;
     color: rgb(58, 58, 58);
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+ 
 
 
-    display: inline-block;
-	width: 500px;
-	min-height: 50px;
-	height: auto;
 }
 #projects{
     background-color:#D5D5D5;
@@ -24,13 +25,17 @@ body{
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    overflow: hidden;
+    max-width: 100%;
 }
 #skills{
-    background-color:#6D7993;
+    background-color:rgb(187, 195, 213);
     color: #000000;
 }
 img{
     position: relative;
+    overflow: hidden;
+    max-width: 100% ;
 }
 
 
@@ -41,27 +46,13 @@ img{
     text-align: center;
 }
 
-#sidebar {
-    width: 20%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 110vh;
-    z-index: 999;
-    background: #75869E;
-    color: #fff;
-    transition: all 0.3s;
-    max-width: 100%;
-
-}
-
 #portfolioImage{
     width: 70%;
     border-radius: 50%;
 }
 .sideBarLinks{
     color:white;
-    font-size: 20px;
+    font-size: 3vh;
 }
 .sideBarLinks:hover{
     color:white;
@@ -71,31 +62,31 @@ img{
     background-color: #75869E !important;
   }
 
-  .div1 {
+.div1 {
     float: left;
     text-align: left;
 }
 
 .frontImage{
     background-image: url("img/computerDesk.jpg");
-
     height: 100vh;
     max-height: 100vh;
     width: 100%;
     max-width: 200%;
-    padding-right: 0%;
+    padding-right: 20%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    min-width: 100%;
 }
 .about{
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 10%;
+    padding-bottom: 10%;
 
     background: rgb(224, 229, 237);
     transition: all 0.3s;
+    
 }
 .aboutMeParagraph{
     padding-right: 15%;
@@ -104,7 +95,7 @@ img{
 .container1 {
     position: relative;
     text-align: left;
-    color: 96858f;
+    color: #75869E;
     line-height: 270%;
 
   }
@@ -121,7 +112,7 @@ img{
     transition-duration: 0.4s;
     background-color: rgba(255, 255, 255, 0.982);
     color:#75869E;
-    padding: 12px 10px 12px 10px;
+    padding: 6% 8% 6% 8%;
 
 
   }
@@ -133,51 +124,58 @@ img{
 
 
   .name{
-    font-size: 12vh;
+    font-size: 4vw;
     font-weight: 900;
   }
   .ital{
-    font-size: 3vh;
+    font-size: 2vw;
     font-style: italic;
   }
   .hello{
-      font-size: 4vh;
+      font-size: 2vw;
       
   }
   .fa {
-    padding: 4px;
-    width: 50px;
+    padding: 5%;
+    width: 10%;
+    color: white;
+
   }
   .heading{
     color: #75869E;
-    font-size: 30px;
+    font-size: 5vw;
   }
   .descr{
     color:#75869E;
-    font-size: 19px;
+    font-size: 2.2vw;
     font-style: italic;
 
   }
   .par{
-    line-height: 2.0;
-    font-size: 19px;
-
+    font-size: 2.2vw;
   }
 
 
   .row {
     display: flex;
-    padding-left: 50vh;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    background-color: rgb(219, 219, 230)
+    padding-left: 10vh;
+    padding-top:10%;
+    padding-bottom: 10%;
+    overflow: hidden;
+    max-width: 101% ;
+
   }
   
   .column {
-    flex: 50%;
+    flex: 30%;
+    overflow: hidden;
+    
 
   }
   p.thick {
     font-weight: bold;
   }
+
+
+  
   
